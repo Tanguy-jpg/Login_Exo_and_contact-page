@@ -1,0 +1,13 @@
+[
+    {
+    "email" : "tanguy@mail.com",
+    "password" : "$2y$10$S2yr38IFvErHsIxVkYax0uoF890BQg2GPrxwD6Hl5p37tvReDVBFm",
+    "fullname" : "Tanguy Brunetti"
+    },
+
+    {
+        "email" : "random@mail.com",
+        "password" :"$2y$10$ySHvye9.nx/Or30BiNVdleAB03G4FzgOSxPOFyraTPGFlWsTLH6DO",
+        "fullname" : "Random"
+    }
+]

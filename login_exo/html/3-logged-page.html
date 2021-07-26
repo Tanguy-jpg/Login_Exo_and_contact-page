@@ -1,0 +1,12 @@
+<?php 
+$filedata= 'database/login.json';
+$getdata = file_get_contents($filedata);
+$data = json_decode($getdata);
+
+$filesession= 'database/logged-session.json';
+$getsession = file_get_contents($filesession);
+$session = json_decode($getsession);
+?>
+
+<h2>Welcome !</h2>
+<p>Hello, <?php print_r($data[$session]->fullname); ?> </p>   
